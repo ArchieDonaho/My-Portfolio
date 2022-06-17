@@ -3,7 +3,7 @@ import React from 'react';
 function Footer() {
   return (
     <footer id='contact'>
-      <h2>Find Me At:</h2>
+      <h2 className='text-center'>Find Me At:</h2>
       <ul>
         <li>
           <a

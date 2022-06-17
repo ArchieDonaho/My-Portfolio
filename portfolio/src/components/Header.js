@@ -3,7 +3,9 @@ import React from 'react';
 function Header() {
   return (
     <>
-      <div>Archie Donaho</div>
+      <a className='primary' href='/'>
+        Archie Donaho
+      </a>
     </>
   );
 }

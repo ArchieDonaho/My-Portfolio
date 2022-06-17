@@ -3,9 +3,12 @@ import React from 'react';
 function Resume() {
   return (
     <div id='resume'>
-      <h1>Resume</h1>
+      <h2 className='text-center'>Resume</h2>
       <p>
-        Download the resume <a>HERE</a>
+        Download the resume{' '}
+        <a target='_blank' href='https://www.google.com'>
+          HERE
+        </a>
       </p>
       <div>
         <section>
