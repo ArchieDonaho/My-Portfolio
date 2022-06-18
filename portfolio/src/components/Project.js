@@ -59,10 +59,10 @@ function Project() {
             <div class='bg-image hover-zoom border-bottom'>
               <img
                 className='card-img-top'
-                alt='inserdisc'
+                alt={`Screenshot of ${projects[index].name}`}
                 src={require(`../assets/img/${projects[index].img}.png`)}
               />
-              <a href={projects[index].link}>
+              <a target='_blank' rel='noreferrer' href={projects[index].link}>
                 <div className='mask'></div>
               </a>
             </div>
@@ -73,13 +73,6 @@ function Project() {
                 {projects[index].tech}
               </h6>
               <p className='card-text'>{projects[index].description}</p>
-              {/* <a
-                className='card-link'
-                target='_blank'
-                href={projects[index].link}
-              >
-                {projects[index].link}
-              </a> */}
             </div>
           </div>
         </div>

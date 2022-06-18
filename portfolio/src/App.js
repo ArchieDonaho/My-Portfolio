@@ -13,8 +13,6 @@ function App() {
   return (
     <div>
       <Navigation
-        contactFormSelected={contactFormSelected}
-        setContactFormSelected={setContactFormSelected}
         currentTab={currentTab}
         setCurrentTab={setCurrentTab}
       ></Navigation>
