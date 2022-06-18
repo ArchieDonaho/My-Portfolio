@@ -4,7 +4,7 @@ const projects = [
   {
     name: 'InsertDisc',
     description:
-      'This application allows users to talk about everything music, games, and movies. Users can like their favorite post, reply to any post, and shre a post to twitter using the share button.',
+      'This application allows users to talk about everything music, games, and movies. Users can like their favorite post, reply to any post, and share a post to twitter using the share button.',
     tech: 'Built using a MySQL database, Node, Sequelize, Express routes, and Handlebars',
     link: 'https://insertdisc.herokuapp.com/',
     img: 'insertdisc',
@@ -19,7 +19,7 @@ const projects = [
   {
     name: 'Random Password Generator',
     description:
-      'This application asks for a series of prompts to give you a randomly generated password.',
+      'This application asks for a series of prompts to give you a randomly generated password to be used where needed.',
     tech: 'Built using front end Javascript',
     link: 'https://archiedonaho.github.io/Random-Password-Generator/',
     img: 'Password',
@@ -43,7 +43,7 @@ const projects = [
     name: 'Employee Tracker',
     description:
       'This application allows the user to view and interact with an informational database that stores employees, departments, jobs, and managers.',
-    tech: 'Build to use the Node CLI',
+    tech: 'Built to utilize the Node CLI',
     link: 'https://github.com/ArchieDonaho/Employee-Tracker',
     img: 'employee-tracker',
   },
@@ -54,15 +54,18 @@ function Project() {
     <div id='project' className='row'>
       <h2 className='text-center'>Projects</h2>
       {projects.map((project, index) => (
-        <div className='col-4'>
-          {/* col-md-4 col-sm-6 col-12 */}
-
-          <div className='card project-card'>
-            <img
-              className='card-img-top'
-              alt='inserdisc'
-              src={require(`../assets/img/${projects[index].img}.png`)}
-            />
+        <div className='col-md-4 col-sm-6 col-12 my-2'>
+          <div className='card'>
+            <div class='bg-image hover-zoom border-bottom'>
+              <img
+                className='card-img-top'
+                alt='inserdisc'
+                src={require(`../assets/img/${projects[index].img}.png`)}
+              />
+              <a href={projects[index].link}>
+                <div className='mask'></div>
+              </a>
+            </div>
 
             <div className='card-body'>
               <h5 className='card-title'>{projects[index].name}</h5>
@@ -70,13 +73,13 @@ function Project() {
                 {projects[index].tech}
               </h6>
               <p className='card-text'>{projects[index].description}</p>
-              <a
+              {/* <a
                 className='card-link'
                 target='_blank'
                 href={projects[index].link}
               >
                 {projects[index].link}
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
