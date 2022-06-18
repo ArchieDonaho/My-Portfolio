@@ -29,9 +29,6 @@ function Footer() {
       <div className='row'>
         {links.map((link, index) => (
           <div className='col-3 text-center'>
-            {/* <a target='_blank' rel='noreferrer' href={links[index].link}>
-              {links[index].name}
-            </a> */}
             <a target='_blank' rel='noreferrer' href={links[index].link}>
               <button
                 type='button'

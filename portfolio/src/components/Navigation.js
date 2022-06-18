@@ -2,7 +2,7 @@ import React from 'react';
 import Header from './Header';
 
 function Navigation(props) {
-  const { contactFormSelected, setContactFormSelected } = props;
+  const { currentTab, setCurrentTab } = props;
 
   return (
     <header>
@@ -10,20 +10,22 @@ function Navigation(props) {
       <nav>
         <ul>
           <li>
-            <a href='#about' onClick={() => setContactFormSelected(false)}>
+            <a href='#about' onClick={() => setCurrentTab('about')}>
               About Me
             </a>
           </li>
           <li>
-            <a href='#project' onClick={() => setContactFormSelected(false)}>
+            <a href='#project' onClick={() => setCurrentTab('projects')}>
               Projects
             </a>
           </li>
           <li>
-            <span onClick={() => setContactFormSelected(true)}>Contact</span>
+            <a href='#contact' onClick={() => setCurrentTab('contact')}>
+              Contact
+            </a>
           </li>
           <li>
-            <a href='#resume' onClick={() => setContactFormSelected(false)}>
+            <a href='#resume' onClick={() => setCurrentTab('resume')}>
               Resume
             </a>
           </li>

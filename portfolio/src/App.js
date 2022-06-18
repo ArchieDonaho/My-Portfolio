@@ -8,24 +8,21 @@ import Footer from './components/Footer';
 import Resume from './components/Resume';
 
 function App() {
-  const [contactFormSelected, setContactFormSelected] = useState(false);
+  const [currentTab, setCurrentTab] = useState('about');
 
   return (
     <div>
       <Navigation
         contactFormSelected={contactFormSelected}
         setContactFormSelected={setContactFormSelected}
+        currentTab={currentTab}
+        setCurrentTab={setCurrentTab}
       ></Navigation>
       <main>
-        {!contactFormSelected ? (
-          <>
-            <About></About>
-            <Project></Project>
-            <Resume></Resume>
-          </>
-        ) : (
-          <Contact></Contact>
-        )}
+        {currentTab === 'about' && <About></About>}
+        {currentTab === 'resume' && <Resume></Resume>}
+        {currentTab === 'projects' && <Project></Project>}
+        {currentTab === 'contact' && <Contact></Contact>}
       </main>
       <Footer></Footer>
     </div>
