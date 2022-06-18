@@ -6,6 +6,10 @@ function validateEmail(email) {
   return re.test(String(email).toLowerCase());
 }
 
+function capitalizeFirstLetter(string) {
+  return string.charAt(0).toUpperCase() + string.slice(1);
+}
+
 function Contact() {
   const [errorMessage, setErrorMessage] = useState('');
   const [form, setForm] = useState({
@@ -26,7 +30,7 @@ function Contact() {
       }
     } else {
       if (!e.target.value.length) {
-        setErrorMessage(`${e.target.name} is required`);
+        setErrorMessage(`${capitalizeFirstLetter(e.target.name)} is required`);
       } else {
         setErrorMessage('');
       }
@@ -43,101 +47,63 @@ function Contact() {
   return (
     <section>
       <h2 className='text-center'>Contact Me</h2>
-      {/* <div>
-        <form id='contact-form'>
-          <div>
-            <label htmlFor='name'>Name:</label>
-            <input
-              type='text'
-              name='name'
-              placeholder='Name'
-              defaultValue={name}
-              onBlur={handleInput}
-            ></input>
-          </div>
-          <div>
-            <label htmlFor='email'>Email:</label>
-            <input
-              type='email'
-              name='email'
-              placeholder='Email address'
-              defaultValue={email}
-              onBlur={handleInput}
-            ></input>
-          </div>
-          <div>
-            <label htmlFor='message'>Message:</label>
-            <textarea
-              type='text'
-              name='message'
-              rows='5'
-              placeholder='Enter your message here'
-              defaultValue={message}
-              onBlur={handleInput}
-            ></textarea>
-          </div>
-          <button type='submit'>Submit</button>
-        </form>
-        {errorMessage && (
-          <div>
-            <p>{errorMessage}</p>
-          </div>
-        )}
-      </div> */}
+      <div className='row  d-flex justify-content-center'>
+        <div className='col-xsm-11 col-md-6'>
+          <form
+            id='contact-form'
+            className='bg-white border border-dark rounded-5'
+            onSubmit={handleSubmit}
+          >
+            <div className='form-outline mb-2 mt-2 border-bottom'>
+              <input
+                type='text'
+                name='name'
+                className='form-control'
+                defaultValue={name}
+                onBlur={handleInput}
+              />
+              <label className='form-label' htmlFor='name'>
+                Name
+              </label>
+            </div>
 
-      <form
-        id='contact-form'
-        className='bg-white w-50 border border-dark'
-        onSubmit={handleSubmit}
-      >
-        <div className='form-outline mb-4'>
-          <label className='form-label' htmlFor='name'>
-            Name
-          </label>
-          <input
-            type='text'
-            name='name'
-            className='form-control'
-            defaultValue={name}
-            onBlur={handleInput}
-          />
-        </div>
+            <div className='form-outline mb-2  border-bottom'>
+              <input
+                type='email'
+                name='email'
+                className='form-control'
+                defaultValue={email}
+                onBlur={handleInput}
+              />
+              <label className='form-label' htmlFor='email'>
+                Email address
+              </label>
+            </div>
 
-        <div className='form-outline mb-4'>
-          <label className='form-label' htmlFor='email'>
-            Email address
-          </label>
-          <input
-            type='email'
-            name='email'
-            className='form-control'
-            defaultValue={email}
-            onBlur={handleInput}
-          />
+            <div className='form-outline mb-4  border-bottom'>
+              <textarea
+                className='form-control'
+                name='message'
+                rows='4'
+                defaultValue={message}
+                onBlur={handleInput}
+              ></textarea>
+              <label className='form-label' htmlFor='message'>
+                Message
+              </label>
+            </div>
+            {errorMessage ? (
+              <div className='btn bg-danger text-white btn-block mb-4'>
+                {errorMessage}
+              </div>
+            ) : (
+              <button type='submit' className='btn btn-primary btn-block mb-4'>
+                Send
+              </button>
+            )}
+          </form>
         </div>
-
-        <div className='form-outline mb-4'>
-          <label className='form-label' htmlFor='message'>
-            Message
-          </label>
-          <textarea
-            className='form-control'
-            name='message'
-            rows='4'
-            defaultValue={message}
-            onBlur={handleInput}
-          ></textarea>
-        </div>
-
-        <button type='submit' className='btn btn-primary btn-block mb-4'>
-          Send
-        </button>
-      </form>
-      {errorMessage && (
-        <div>
-          <p>{errorMessage}</p>
-        </div>
-      )}
+      </div>
     </section>
   );
 }
