@@ -1,11 +1,15 @@
 import React from 'react';
 
-function Header() {
+function Header({ setCurrentTab }) {
   return (
     <>
-      <a className='primary' href='/'>
+      <div
+        id='headerLink'
+        className='primary'
+        onClick={() => setCurrentTab('about')}
+      >
         Archie Donaho
-      </a>
+      </div>
     </>
   );
 }

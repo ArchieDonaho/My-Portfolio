@@ -8,7 +8,7 @@ function Navigation(props) {
     <nav className='navbar navbar-expand-lg navbar-light bg-light'>
       <div className='container-fluid'>
         <div className='navbar-brand'>
-          <Header></Header>
+          <Header setCurrentTab={setCurrentTab}></Header>
         </div>
         <button
           className='navbar-toggler'

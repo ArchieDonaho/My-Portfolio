@@ -9,6 +9,11 @@
   --text: rgb(203, 225, 255);
 } 
 
+#headerLink {
+  cursor: pointer;
+  color: var(--three);
+}
+
 h1,
 h2,
 h5,
