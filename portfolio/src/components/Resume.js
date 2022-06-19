@@ -4,8 +4,8 @@ function Resume() {
   return (
     <div id='resume'>
       <h2 className='text-center'>Resume</h2>
-      <p>
-        Download the resume{' '}
+      <p className='text-center'>
+        Download the full resume{' '}
         <a
           target='_blank'
           rel='noreferrer'

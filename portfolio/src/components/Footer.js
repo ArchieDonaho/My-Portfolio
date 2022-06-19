@@ -32,7 +32,7 @@ function Footer() {
             <a target='_blank' rel='noreferrer' href={links[index].link}>
               <button
                 type='button'
-                className='btn btn-primary btn-floating mx-1'
+                className='btn btn-primary btn-lg btn-floating mx-1'
               >
                 <svg
                   xmlns='http://www.w3.org/2000/svg'

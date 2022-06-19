@@ -16,12 +16,8 @@ h6 {
   color: var(--three);
 }
 
-.project-card {
-  background-color: var(--one);
-}
-
-.project-card-body {
-  background-color: var(--one);
+.project-card-btn {
+  background-color: #00b4d8;
 }
 
 body {
