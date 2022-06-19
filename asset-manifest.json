@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/My-Portfolio-React/static/css/main.2d3186d2.css",
-    "main.js": "/My-Portfolio-React/static/js/main.5650de61.js",
+    "main.css": "/My-Portfolio-React/static/css/main.f03a439e.css",
+    "main.js": "/My-Portfolio-React/static/js/main.2393b4a7.js",
     "static/js/787.1ed0c42c.chunk.js": "/My-Portfolio-React/static/js/787.1ed0c42c.chunk.js",
     "static/media/insertdisc.png": "/My-Portfolio-React/static/media/insertdisc.dabcfae8b92c9816af1f.png",
     "static/media/Screenshot.png": "/My-Portfolio-React/static/media/Screenshot.fa12699cfa7f5575dc73.png",
@@ -12,12 +12,12 @@
     "static/media/budget-tracker.png": "/My-Portfolio-React/static/media/budget-tracker.1ea003589f16076c9ce8.png",
     "static/media/employee-tracker.png": "/My-Portfolio-React/static/media/employee-tracker.c0381fcf44a7c8907ca4.png",
     "index.html": "/My-Portfolio-React/index.html",
-    "main.2d3186d2.css.map": "/My-Portfolio-React/static/css/main.2d3186d2.css.map",
-    "main.5650de61.js.map": "/My-Portfolio-React/static/js/main.5650de61.js.map",
+    "main.f03a439e.css.map": "/My-Portfolio-React/static/css/main.f03a439e.css.map",
+    "main.2393b4a7.js.map": "/My-Portfolio-React/static/js/main.2393b4a7.js.map",
     "787.1ed0c42c.chunk.js.map": "/My-Portfolio-React/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2d3186d2.css",
-    "static/js/main.5650de61.js"
+    "static/css/main.f03a439e.css",
+    "static/js/main.2393b4a7.js"
   ]
 }
