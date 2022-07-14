@@ -2,6 +2,14 @@ import React from 'react';
 
 const projects = [
   {
+    name: 'UpLoL',
+    description: 'An app to upload your funniest photos and memes!',
+    tech: 'Built using the MERN stack and the Cloudinary API',
+    link: 'https://uplol.herokuapp.com/',
+    github: 'https://github.com/kevin-foreman/UpLoL',
+    img: 'uplol',
+  },
+  {
     name: 'InsertDisc',
     description:
       'This application allows users to talk about everything music, games, and movies. Users can like their favorite post, reply to any post, and share a post to twitter using the share button.',
@@ -25,7 +33,7 @@ const projects = [
     tech: 'Built using front end Javascript',
     link: 'https://archiedonaho.github.io/Random-Password-Generator/',
     github: 'https://github.com/ArchieDonaho/Random-Password-Generator',
-    img: 'Password',
+    img: 'password',
   },
   {
     name: 'Budget Tracker',
