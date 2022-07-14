@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/My-Portfolio-React/static/css/main.f03a439e.css",
-    "main.js": "/My-Portfolio-React/static/js/main.2393b4a7.js",
+    "main.js": "/My-Portfolio-React/static/js/main.a9f3fe6c.js",
     "static/js/787.1ed0c42c.chunk.js": "/My-Portfolio-React/static/js/787.1ed0c42c.chunk.js",
     "static/media/insertdisc.png": "/My-Portfolio-React/static/media/insertdisc.dabcfae8b92c9816af1f.png",
-    "static/media/Screenshot.png": "/My-Portfolio-React/static/media/Screenshot.fa12699cfa7f5575dc73.png",
+    "static/media/uplol.png": "/My-Portfolio-React/static/media/uplol.1992a347cfe2ff7ee8c6.png",
     "static/media/search-watch-chill.png": "/My-Portfolio-React/static/media/search-watch-chill.279bf86c7b0ef690ff0e.png",
     "static/media/portrait.jpg": "/My-Portfolio-React/static/media/portrait.6cfc292f8d62bd5bbe2f.jpg",
     "static/media/your-tech-blog.png": "/My-Portfolio-React/static/media/your-tech-blog.4c9a8f23ece84bb2ab39.png",
-    "static/media/Password.png": "/My-Portfolio-React/static/media/Password.9e5479dd0175b54de27d.png",
+    "static/media/password.png": "/My-Portfolio-React/static/media/password.9e5479dd0175b54de27d.png",
     "static/media/budget-tracker.png": "/My-Portfolio-React/static/media/budget-tracker.1ea003589f16076c9ce8.png",
     "static/media/employee-tracker.png": "/My-Portfolio-React/static/media/employee-tracker.c0381fcf44a7c8907ca4.png",
     "index.html": "/My-Portfolio-React/index.html",
     "main.f03a439e.css.map": "/My-Portfolio-React/static/css/main.f03a439e.css.map",
-    "main.2393b4a7.js.map": "/My-Portfolio-React/static/js/main.2393b4a7.js.map",
+    "main.a9f3fe6c.js.map": "/My-Portfolio-React/static/js/main.a9f3fe6c.js.map",
     "787.1ed0c42c.chunk.js.map": "/My-Portfolio-React/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f03a439e.css",
-    "static/js/main.2393b4a7.js"
+    "static/js/main.a9f3fe6c.js"
   ]
 }
