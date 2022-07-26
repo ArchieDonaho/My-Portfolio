@@ -9,7 +9,7 @@ function Resume() {
         <a
           target='_blank'
           rel='noreferrer'
-          href='https://drive.google.com/file/d/19bEBM0prrMOQxMe6Qv8o6KzEy1UhZSZo/view?usp=sharing'
+          href='https://docs.google.com/document/d/1tX3UE3MrXlJ3mjJg0S2-rtER7YJH6JotCXAZSkDImYI/edit?usp=sharing'
         >
           HERE
         </a>
