@@ -106,9 +106,6 @@ function Resume() {
                     <li>HTML</li>
                     <li>CSS</li>
                     <li>Javascript</li>
-                    <li>HTML</li>
-                    <li>HTML</li>
-                    <li>HTML</li>
                   </ul>
                 </li>
                 <br />
@@ -117,10 +114,15 @@ function Resume() {
                   <ul>
                     <li>Git</li>
                     <li>Node</li>
-                    <li>MySQL</li>
-                    <li>MongoDB</li>
+                    <li>MySQL with Sequelize</li>
+                    <li>MongoDB with Mongoose & Apollo GraphQL</li>
                     <li>React</li>
                     <li>Handlebars</li>
+                    <li>Express</li>
+                    <li>3rd party API's</li>
+                    <li>Service Workers & Web Manifest</li>
+                    <li>Heroku</li>
+                    <li>Cloud Based Storage</li>
                   </ul>
                 </li>
               </ul>
