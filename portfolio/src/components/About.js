@@ -28,30 +28,20 @@ function About() {
             problem-solving, and goal-oriented skills, utilized throughout the
             UTSA Full Stack Web Development Bootcamp by keeping a large focus on
             the final product and making sure my team understood the steps to
-            get there. Additionally, I have a history of customer-facing,
-            highly-decisive jobs, like inventory management and service
-            advising. Experience in creating MERN stack, RESTful, test-driven,
-            mobile and progressive applications, as well as working solo & with
-            others to create & improve a multitude of applications. The last
-            project I created was a MERN stack social media image-sharing
-            platform. In my team, I was responsible for back-end development
-            using MongoDB, Mongoose, & Apollo GraphQL, and implementing cloud
-            based storage for hosting the images due to storage limitations with
-            MongoDB Cloud. I also helped work on front-end components and the
-            api calls to both the cloud storage and the database. <br />
-            As a graduate of the UTSA Full Stack Web Development Bootcamp, I
-            have gained 100+ hours of experience building full stack
-            applications individually and with a team using languages such as
-            HTML, CSS, and Javascript, utilizing applications such as Node, Git,
-            GitHub, Express, React, Handlebars, MySQL with Sequelize, MongoDB
-            with Mongoose & Apollo GraphQL, 3rd party CSS libraries, 3rd party
-            API’s, and deployment using Heroku. Additionally, I have used
-            technologies & development skills such as ServiceWorkers & Web
-            Manifest, MVC File Organization, Test-Driven-Development, Chrome Dev
-            Tools, Google Lighthouse, Cloud based storage, and IndexedDB to
-            further create organized & efficient applications.
-            <br />
-            Certificates: UTSA Full Stack Bootcamp
+            get there.
+            <div className='mb-2'></div>
+            Earned my certificate and gained 100+ hours of experience building
+            full stack applications through the bootcamp, working both
+            individually and with a team, creating MERN stack, RESTful,
+            test-driven, mobile and progressive web applications, as well as
+            working solo & with others to create and improve a multitude of
+            applications.
+            <div className='mt-2'></div>
+            Recently collaborated on a social media image sharing platform,
+            tasked with implementing cloud-based image storage/hosting to reduce
+            the load on the main database. Using my ability to collaborate and
+            problem-solve, I am excited to use my skills to improve team
+            viability and create exciting and innovative final products.
           </p>
         </div>
       </div>

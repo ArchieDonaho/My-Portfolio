@@ -49,7 +49,7 @@ function Navigation(props) {
                   className='nav-link disabled'
                   onClick={() => setCurrentTab('projects')}
                 >
-                  Portfolio
+                  Projects
                 </a>
               ) : (
                 <a
@@ -57,26 +57,7 @@ function Navigation(props) {
                   className='nav-link'
                   onClick={() => setCurrentTab('projects')}
                 >
-                  Portfolio
-                </a>
-              )}
-            </li>
-            <li className='nav-item'>
-              {currentTab === 'contact' ? (
-                <a
-                  href='#contact'
-                  className='nav-link disabled'
-                  onClick={() => setCurrentTab('contact')}
-                >
-                  Contact
-                </a>
-              ) : (
-                <a
-                  href='#contact'
-                  className='nav-link'
-                  onClick={() => setCurrentTab('contact')}
-                >
-                  Contact
+                  Projects
                 </a>
               )}
             </li>
@@ -99,6 +80,25 @@ function Navigation(props) {
                 </a>
               )}
             </li>
+            {/* <li className='nav-item'>
+              {currentTab === 'contact' ? (
+                <a
+                  href='#contact'
+                  className='nav-link disabled'
+                  onClick={() => setCurrentTab('contact')}
+                >
+                  Contact
+                </a>
+              ) : (
+                <a
+                  href='#contact'
+                  className='nav-link'
+                  onClick={() => setCurrentTab('contact')}
+                >
+                  Contact
+                </a>
+              )}
+            </li> */}
           </ul>
         </div>
       </div>

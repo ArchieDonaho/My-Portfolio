@@ -3,37 +3,12 @@ import React from 'react';
 const projects = [
   {
     name: 'UpLoL',
-    description: 'An app to upload your funniest photos and memes!',
+    description:
+      'An application for sharing funny, tasteful images with friends! Post, like, comment, and share!',
     tech: 'Built using the MERN stack and the Cloudinary API',
     link: 'https://uplol.herokuapp.com/',
     github: 'https://github.com/kevin-foreman/UpLoL',
     img: 'uplol',
-  },
-  {
-    name: 'InsertDisc',
-    description:
-      'This application allows users to talk about everything music, games, and movies. Users can like their favorite post, reply to any post, and share a post to twitter using the share button.',
-    tech: 'Built using a MySQL database, Node, Sequelize, Express routes, and Handlebars',
-    link: 'https://insertdisc.herokuapp.com/',
-    github: 'https://github.com/ArchieDonaho/InsertDisc',
-    img: 'insertdisc',
-  },
-  {
-    name: 'Search, Watch, Chill',
-    description: `This application gives the user a movie based on a selected genre or movie title along with the movie's description, analytics, and other information.`,
-    tech: `A demonstration of using 3rd party api's and front-end Javascript`,
-    link: 'https://archiedonaho.github.io/Search-Watch-Chill/',
-    github: 'https://github.com/ArchieDonaho/Search-Watch-Chill',
-    img: 'search-watch-chill',
-  },
-  {
-    name: 'Random Password Generator',
-    description:
-      'This application asks for a series of prompts to give you a randomly generated password to be used where needed.',
-    tech: 'Built using front end Javascript',
-    link: 'https://archiedonaho.github.io/Random-Password-Generator/',
-    github: 'https://github.com/ArchieDonaho/Random-Password-Generator',
-    img: 'password',
   },
   {
     name: 'Budget Tracker',
@@ -46,7 +21,7 @@ const projects = [
   },
   {
     name: 'Your Tech Blog',
-    description: `This application is a blog site where users can create accounts to post their thoughts on the current state of modern tech and comment on other's posts.`,
+    description: `A blog site where users can create accounts to post their thoughts on the current state of modern tech and comment on other's posts.`,
     tech: 'Utilizing Node, Express, MySQL, Sequelize, and HandleBars',
     link: 'https://hidden-tor-41102.herokuapp.com/',
     github: 'https://github.com/ArchieDonaho/Tech-Blog',
@@ -55,17 +30,43 @@ const projects = [
   {
     name: 'Employee Tracker',
     description:
-      'This application allows the user to view and interact with an informational database that stores employees, departments, jobs, and managers.',
+      'View and interact with an informational database that stores employees, departments, jobs, and managers.',
     tech: 'Built to utilize the Node CLI',
     link: 'https://github.com/ArchieDonaho/Employee-Tracker',
     github: 'https://github.com/ArchieDonaho/Employee-Tracker',
     img: 'employee-tracker',
   },
+  {
+    name: 'Random Password Generator',
+    description:
+      'This application asks for a series of prompts to give you a randomly generated password to be used where needed.',
+    tech: 'Built using front end Javascript',
+    link: 'https://archiedonaho.github.io/Random-Password-Generator/',
+    github: 'https://github.com/ArchieDonaho/Random-Password-Generator',
+    img: 'password',
+  },
+  // {
+  //   name: 'Search, Watch, Chill',
+  //   description: `This application gives the user a movie based on a selected genre or movie title along with the movie's description, analytics, and other information.`,
+  //   tech: `A demonstration of using 3rd party api's, front-end Javascript, and localstorage`,
+  //   link: 'https://archiedonaho.github.io/Search-Watch-Chill/',
+  //   github: 'https://github.com/ArchieDonaho/Search-Watch-Chill',
+  //   img: 'search-watch-chill',
+  // },
+  {
+    name: 'InsertDisc',
+    description:
+      'This application allows users to talk about everything music, games, and movies. Users can like their favorite post, reply to any post, and share a post to twitter using the share button.',
+    tech: 'Built using a MySQL database, Node, Sequelize, Express routes, and Handlebars',
+    link: 'https://insertdisc.herokuapp.com/',
+    github: 'https://github.com/ArchieDonaho/InsertDisc',
+    img: 'insertdisc',
+  },
 ];
 
 function Project() {
   return (
-    <div id='project' className='row mt-2'>
+    <div id='project' className='row mt-2 mx-1'>
       <h2 className='text-center'>Projects</h2>
       <p className='text-center'>
         A list of a few projects I have done throughout my time in my course
@@ -73,10 +74,10 @@ function Project() {
 
       {projects.map((project, index) => (
         <div
-          className='col-md-4 col-sm-6 col-12 my-2'
+          className='col-md-4 col-sm-6 col-12 my-2 text-center'
           key={projects[index].name}
         >
-          <div className='card'>
+          <div className='card h-100'>
             <div className='bg-image hover-zoom border-bottom'>
               <img
                 className='card-img-top'
