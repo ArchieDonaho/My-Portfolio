@@ -26,7 +26,7 @@ const links = [
 function Footer() {
   return (
     <footer id='contact' className='my-5'>
-      <h3 className='text-center mb-3'>Find Me At</h3>
+      {/* <h3 className='text-center mb-3'>Find Me At</h3> */}
       <div className='row'>
         {links.map((link, index) => (
           <div className='col-3 text-center' key={links[index].name}>

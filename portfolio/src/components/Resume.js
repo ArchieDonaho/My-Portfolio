@@ -38,13 +38,15 @@ function Resume() {
             <div className='accordion-body'>
               <h6>UTSA Boot Camps</h6>
               <p>Certificate - Full Stack Web Development - 2022</p>
+
               <h6>San Antonio College</h6>
               <p>
                 Associate of Arts With Focus In Mechanical Engineering, San
-                Antonio College
+                Antonio College - 2019
               </p>
+
               <h6>Byron P. Steele II High School</h6>
-              <p>Diploma</p>
+              <p>Diploma - 2017</p>
             </div>
           </div>
         </div>

@@ -17,12 +17,26 @@ function App() {
         setCurrentTab={setCurrentTab}
       ></Navigation>
       <main>
-        {currentTab === 'about' && <About></About>}
-        {currentTab === 'resume' && <Resume></Resume>}
-        {currentTab === 'projects' && <Project></Project>}
+        {currentTab === 'about' && (
+          <>
+            <About></About>
+            <Footer></Footer>
+          </>
+        )}
+        {currentTab === 'resume' && (
+          <>
+            <Resume></Resume>
+            <Footer></Footer>
+          </>
+        )}
+        {currentTab === 'projects' && (
+          <>
+            <Project></Project>
+            <Footer></Footer>
+          </>
+        )}
         {currentTab === 'contact' && <Contact></Contact>}
       </main>
-      <Footer></Footer>
     </div>
   );
 }
